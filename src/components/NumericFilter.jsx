@@ -58,7 +58,7 @@ export default function NumericFilter() {
         </select>
         <label htmlFor="comparisonInput">
 
-          Maior ou menor ?
+          Bigger or smaller?
           <select
             data-testid="comparison-filter"
             id="comparisonInput"
@@ -67,17 +67,17 @@ export default function NumericFilter() {
             <option
               value="maior que"
             >
-              maior que
+              bigger than
             </option>
             <option
               value="menor que"
             >
-              menor que
+              smaller than
             </option>
             <option
               value="igual a"
             >
-              igual a
+              equals to
             </option>
           </select>
         </label>
