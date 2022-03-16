@@ -19,6 +19,7 @@ export default function MainContent() {
               placeholder="Which planet are you looking for?"
               value={ filterByName.name }
               onChange={ ({ target }) => setNameFilter(target.value) }
+              className="input-name"
             />
           </label>
         </div>

@@ -39,6 +39,7 @@ export default function NumericFilter() {
       <option
         value={ option }
         key={ option }
+        className="option-dropdown"
       >
         {option}
       </option>
@@ -53,9 +54,11 @@ export default function NumericFilter() {
           data-testid="column-filter"
           id="columnInput"
           onChange={ ({ target }) => setColumn(target.value) }
+          className="select"
         >
           {options.map((option) => optionGenerator(option))}
         </select>
+        </label>
         <label htmlFor="comparisonInput">
 
           Bigger or smaller?
@@ -63,24 +66,28 @@ export default function NumericFilter() {
             data-testid="comparison-filter"
             id="comparisonInput"
             onChange={ ({ target }) => setComparison(target.value) }
+            className="select"
           >
             <option
               value="maior que"
+              className="option-dropdown"
             >
               bigger than
             </option>
             <option
               value="menor que"
+              className="option-dropdown"
             >
               smaller than
             </option>
             <option
               value="igual a"
+              className="option-dropdown"
             >
               equals to
             </option>
           </select>
-        </label>
+          </label>
         <label htmlFor="valueInput">
           Value:
           <input
@@ -91,7 +98,6 @@ export default function NumericFilter() {
             onChange={ ({ target }) => setValue(target.value) }
           />
         </label>
-      </label>
       <button
         data-testid="button-filter"
         type="button"
