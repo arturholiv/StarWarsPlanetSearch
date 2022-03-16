@@ -48,7 +48,7 @@ export default function NumericFilter() {
   return (
     <div>
       <label htmlFor="columnInput">
-        Filtre por coluna:
+        Filter by column:
         <select
           data-testid="column-filter"
           id="columnInput"
