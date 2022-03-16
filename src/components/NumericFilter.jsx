@@ -82,7 +82,7 @@ export default function NumericFilter() {
           </select>
         </label>
         <label htmlFor="valueInput">
-          Valor:
+          Value:
           <input
             data-testid="value-filter"
             id="valueInput"
@@ -97,7 +97,7 @@ export default function NumericFilter() {
         type="button"
         onClick={ addFilter }
       >
-        Filtrar
+        Filter
       </button>
     </div>
   );
