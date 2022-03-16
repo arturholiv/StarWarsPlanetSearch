@@ -40,7 +40,7 @@ export default function Table() {
     const filteredByNumbers = applyFilters(planets);
     return filteredByNumbers
       .filter((planet) => (planet.name).toLowerCase().includes((name).toLowerCase()))
-      .map((planet) => TableRows(planet));
+      .map((planet) => TableRows(planet)); // aqui eu chamo a funçao do componente tablerows para criar cada linha
   }
 
   return (
