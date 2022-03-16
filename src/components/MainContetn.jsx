@@ -9,12 +9,12 @@ export default function MainContent() {
   return (
     <div>
       <label htmlFor="nameInput">
-        Busque por nome:
+        Search by Name:
         <input
           data-testid="name-filter"
           id="nameInput"
           type="text"
-          placeholder="Qual planeta você procura?"
+          placeholder="Which planet are you looking for?"
           value={ filterByName.name }
           onChange={ ({ target }) => setNameFilter(target.value) }
         />
