@@ -20,7 +20,6 @@ body {
 }
 
 .name-input {
-  /* border: 1px solid #000; */
   padding: 1%;
   width: fit-content;
 }
@@ -54,11 +53,38 @@ button {
 }
 
 .select {
-
+  background-color: rgb(221, 221, 221);
+  border-radius: 4px;
+  border-style: none;
+  font-size: 12px;
+  line-height: 1.5;
+  margin: 0;
+  outline: none;
+  padding: 9px  8px;
+  position: relative;
+  text-align: center;
+  text-transform: none;
+  user-select: none;
+  width: fit-content;
+  padding-left: 8px;
 }
 
 .option-dropdown {
-  
+  background-color: rgb(221, 221, 221);
+  border-radius: 4px;
+  border-style: none;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 1.5;
+  margin: 0;
+  outline: none;
+  padding: 9px  8px;
+  position: relative;
+  text-align: center;
+  text-transform: none;
+  user-select: none;
+  width: fit-content;
+  padding-left: 8px;
 }
 
 .input-name {
@@ -76,4 +102,22 @@ button {
   text-transform: none;
   user-select: none;
   width: fit-content;
+  padding-left: 8px;
+}
+
+input {
+  background-color: rgb(221, 221, 221);
+  border-radius: 4px;
+  border-style: none;
+  font-size: 12px;
+  line-height: 1.5;
+  margin: 0;
+  outline: none;
+  padding: 9px  8px;
+  position: relative;
+  text-align: center;
+  text-transform: none;
+  user-select: none;
+  width: fit-content;
+  padding-left: 8px;
 }
