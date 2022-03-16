@@ -8,6 +8,7 @@ export default function MainContent() {
     setNameFilter } = useContext(myContext);
   return (
     <div className="main-content">
+      <h1>StarWars Planets</h1>
       <main className="forms-container">
         <div className="name-input">
           <label htmlFor="nameInput">

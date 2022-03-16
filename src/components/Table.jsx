@@ -44,7 +44,7 @@ export default function Table() {
   }
 
   return (
-    <table>
+    <table cellspacing="5">
       <thead>
         <TableHeaders />
       </thead>
