@@ -46,7 +46,7 @@ export default function NumericFilter() {
   }
 
   return (
-    <div>
+    <div className="filters-container">
       <label htmlFor="columnInput">
         Filter by column:
         <select
